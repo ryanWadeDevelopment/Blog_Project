@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <div class="container">
+      <header><span class="header-text">Ryan's Blog</span></header>
+      <nav>
+        <div class="nav-link"><a href="index.html">Home</a></div>
+        <div class="nav-link"><a href="about.html">About</a></div>
+        <div class="nav-link"><a href="contact.html">Contact</a></div>
+      </nav>
+      <main>
+        <h1>Contact</h1>
+        <div class="contact">
+          <form action="submit" onsubmit="return false;">
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Last Name"
+            />
+            <input
+              type="email"
+              name="lastname"
+              id="lastname"
+              placeholder="Email Address"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <aside>
+          <h2>Featured Post</h2>
+          <!-- A div with container id to hold the card -->
+          <div id="card-container">
+            <!-- A div with card class for the card  -->
+            <div class="card">
+              <img
+                src="img/API_Healthcare_Logo.png"
+                alt="API Healthcare Logo"
+              />
+
+              <!-- A div with card__details class to hold the details in the card  -->
+              <div class="card__details">
+                <!-- Span with tag class for the tag -->
+                <span class="tag">Healthcare</span>
+
+                <span class="tag">Time</span>
+
+                <span class="tag">Attendance</span>
+
+                <!-- A div with name class for the name of the card -->
+                <h3>Blog Post One</h3>
+
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Consectetur sodales morbi dignissim sed diam pharetra vitae
+                  ipsum odio.
+                </p>
+
+                <a href="postone.html"> <button>Read more</button></a>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </main>
+      <footer>
+        <div class="nav-link"><a href="postone.html">Post One</a></div>
+        <div class="nav-link"><a href="posttwo.html">Post Two</a></div>
+        <div class="nav-link"><a href="postthree.html">Post Three</a></div>
+      </footer>
+    </div>
+  </body>
+</html>
