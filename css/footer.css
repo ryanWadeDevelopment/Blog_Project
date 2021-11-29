@@ -1,15 +1,19 @@
 footer {
-  display: flex;
-  align-items: center;
-  background-color: #247bae;
-  padding: 20px;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #247bae;
+    padding: 20px;
+    justify-content: space-between;
 }
 
 footer .nav-link a {
-  text-decoration: none;
-  color: #fafafa;
-  padding: 22px;
+    text-decoration: none;
+    color: #fafafa;
+    padding: 22px;
+}
+
+svg {
+    margin-right: 16px;
 }
 
 /* Larger than mobile */
@@ -22,9 +26,9 @@ footer .nav-link a {
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-  footer {
-    justify-content: flex-start;
-  }
+    footer {
+        justify-content: flex-start;
+    }
 }
 
 /* Larger than desktop */
