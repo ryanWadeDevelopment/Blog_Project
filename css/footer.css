@@ -12,10 +12,6 @@ footer .nav-link a {
     padding: 22px;
 }
 
-svg {
-    margin-right: 16px;
-}
-
 /* Larger than mobile */
 @media (min-width: 400px) {
 }
