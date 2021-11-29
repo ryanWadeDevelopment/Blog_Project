@@ -1,10 +1,32 @@
 main {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
 
 h1,
 h2,
 h3 {
-  text-align: center;
-  margin-top: 1.6rem;
+    text-align: center;
+    margin-top: 1.6rem;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 16px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: "\201C";
+}
+
+blockquote p::after {
+    content: "\201D";
+}
+
+figcaption {
+    font-size: 1.4rem;
 }
